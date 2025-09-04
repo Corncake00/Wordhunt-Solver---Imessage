@@ -6,7 +6,7 @@ import re
 import pyautogui
 
 # ====== SETUP GEMINI ======
-os.environ["GEMINI_API_KEY"] = "AIzaSyBk7XJe6bw13bkFFAfSjLVsuC2UZqALE5Y"
+os.environ["GEMINI_API_KEY"] = "key is redacted for obvious reasons but it'd be here"
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 # ====== TAKE SCREENSHOT ======
