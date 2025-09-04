@@ -1,7 +1,6 @@
 import pyautogui
 import time
 
-# Tiles with your original coords for a1, a2, b1; others are dummy safe values
 tiles = {
     "a": [(1471, 389), (1525, 389), (1578, 389), (1636, 389)],
     "b": [(1471, 442), (1525, 442), (1578, 442), (1636, 442)],
@@ -30,7 +29,7 @@ def drag_to(x_start, y_start, x_end, y_end):
 
 input_labels = ["a1", "a2", "b1", "b2"]
 
-print("Starting in 3 seconds, focus your target window...")
+print("Starting in 3 seconds, target window...")
 time.sleep(3)
 for i in range(len(input_labels)):
     x, y = get_coord(input_labels[i])
