@@ -1,7 +1,7 @@
 from google import genai
 import os
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyBk7XJe6bw13bkFFAfSjLVsuC2UZqALE5Y"
+os.environ["GEMINI_API_KEY"] = "redacted key unc"
 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 chat = client.chats.create(model="gemini-2.5-flash")
 
